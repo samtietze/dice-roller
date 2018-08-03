@@ -8,7 +8,7 @@ type Props = {
 
 };
 type State = {
-    diceRolled: Array<number>,
+    diceRolled: Array<Die>,
     diceValue: number,
 }
 
