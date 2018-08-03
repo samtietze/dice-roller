@@ -20,6 +20,7 @@ class App extends Component<Props, State> {
     dieTypes: ['d4', 'd6', 'd8', 'd10', 'd12', 'd20'],
   };
 
+
   render() {
     const { diceRolled, diceValue, dieTypes } = this.state;
     return (
