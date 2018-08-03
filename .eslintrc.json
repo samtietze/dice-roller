@@ -19,6 +19,12 @@
     "flowtype"
   ],
   "rules": {
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
     "react/jsx-uses-react": 2,
     "react/destructuring-assignment": 1,
     "react/jsx-filename-extension": [

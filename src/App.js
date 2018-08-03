@@ -4,7 +4,20 @@ import React, { Component } from 'react';
 import Sidebar from './Sidebar';
 import './App.css';
 
-class App extends Component {
+type Props = {
+
+};
+type State = {
+    diceRolled: Array<number>,
+    diceValue: number,
+}
+
+class App extends Component<Props, State> {
+  state = {
+    diceRolled: [],
+    diceValue: 0,
+  };
+
   render() {
     return (
       <div>
