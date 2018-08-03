@@ -1,13 +1,14 @@
 // @flow
 
 import React, { Component } from 'react';
+import Die from './Die';
 import './DieContainer.css';
 
-class DieContainer extends Component {
+class DieContainer extends Component<Props> {
   render() {
     return (
       <div className="dieContainer">
-            hello
+        <Die />
       </div>
     );
   }
