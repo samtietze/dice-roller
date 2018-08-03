@@ -10,8 +10,8 @@ const Sidebar = (props: {
   const { dieTypes } = props;
   let dieContainers;
   if (dieTypes) {
-    dieContainers = dieTypes.map(die => (
-      <DieContainer key={die} die={die} />
+    dieContainers = dieTypes.map(dieSpec => (
+      <DieContainer key={dieSpec} dieSpec={dieSpec} />
     ));
   }
   return (
