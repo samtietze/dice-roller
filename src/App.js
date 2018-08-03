@@ -10,7 +10,7 @@ type Props = {
 type State = {
     diceRolled: Array<Die>,
     diceValue: number,
-}
+};
 
 class App extends Component<Props, State> {
   state = {
