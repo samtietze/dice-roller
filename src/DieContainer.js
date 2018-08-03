@@ -32,7 +32,9 @@ class DieContainer extends Component<Props, State> {
             Number to roll:
               <input type="text" id={`${dieSpec}Input`} placeholder="enter a number" value={numberOfDice} />
             </label>
-            <input type="submit" value="Roll" />
+            <button type="submit">
+              Roll
+            </button>
           </form>
         </div>
       </div>
